@@ -3,7 +3,7 @@ function App() {
   return (
     <>
       <p className="read-the-docs">
-        portfolio de juan
+        Colocando novo conteudo
       </p>
     </>
   )
