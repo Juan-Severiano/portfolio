@@ -1,1 +1,12 @@
 @import './components/reset';
+@import './components/header';
+@import './abstract/variables';
+
+body {
+    background-color: $primary-color;
+}
+
+section.container {
+    background-color: #964a4f;
+    height: 200vh;
+}
