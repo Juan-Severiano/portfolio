@@ -1,0 +1,50 @@
+@import '../abstract/variables';
+
+section.container.home {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    .img-card {
+        max-width: 600px;
+        margin: 25px;
+        img {
+            max-width: 550px;
+            border-radius: 20px;
+        }
+    }
+    .home-text-description {
+        margin: 25px;
+        h2 {
+            font-size: 60px!important;
+        }
+        .typewriter {
+            overflow: hidden;
+            border-right: .15em solid orange; /* Simula o cursor de digitação */
+            white-space: normal; /* Permite que o texto quebre em várias linhas */
+            margin: 0 auto; /* Centraliza o texto */
+            letter-spacing: .15em; /* Espaçamento entre letras */
+            animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+            font-size: 10px;
+        
+            @keyframes typing {
+                from {
+                    width: 0;
+                }
+                to {
+                    width: 100%;
+                }
+            }
+        
+            @keyframes blink-caret {
+                from, to {
+                    border-color: transparent;
+                }
+                50% {
+                    border-color: orange;
+                }
+            }
+        }
+        
+        
+    }
+}
