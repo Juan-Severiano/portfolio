@@ -10,7 +10,7 @@
 .header {
   position: fixed;
   top: 0;
-  height: 100px;
+  height: 70px;
   display: flex;
   width: 100vw !important;
   color: #fff;
@@ -77,6 +77,19 @@ section.container.home .home-text-description .typewriter {
   50% {
     border-color: orange;
   }
+}
+
+section.container.about {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+section.container.about .about-text p {
+  font-size: 12px;
+}
+section.container.about img {
+  max-width: 400px;
+  border-radius: 50%;
 }
 
 body {
