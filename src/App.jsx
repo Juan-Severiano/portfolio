@@ -1,6 +1,7 @@
 import Home from "./screens/Home"
 import About from './screens/About';
 import Projects from "./screens/Projects";
+import Skills from "./screens/Skills";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Home />
       <About />
+      <Skills />
       <Projects />
     </>
   )

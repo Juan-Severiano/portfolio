@@ -3,7 +3,7 @@ import { Component } from "react";
 export default class Home extends Component {
     render() {
         return (
-            <section className="container home">
+            <section className="container home" id="home">
                 <aside className="img-card">
                   <img src="/img-code.jpg" alt="Imagem de um computador aberto" />
                 </aside>

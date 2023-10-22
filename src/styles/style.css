@@ -21,6 +21,13 @@
   justify-content: space-between;
   align-items: center;
 }
+.header .container .title {
+  text-decoration: none !important;
+}
+.header .container .title a {
+  text-decoration: none !important;
+  color: #fff;
+}
 .header .container ul {
   display: flex;
   list-style: none;

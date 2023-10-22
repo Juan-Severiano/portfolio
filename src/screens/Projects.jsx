@@ -3,7 +3,7 @@ import { Component } from "react";
 export default class Projects extends Component {
     render() {
         return (
-            <section className="container home">
+            <section className="container projects" id="projects">
                 <aside className="img-card">
                   <img src="/img-code.jpg" alt="Imagem de um computador aberto" />
                 </aside>

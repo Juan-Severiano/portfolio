@@ -6,7 +6,7 @@ export default class Header extends Component {
             <header className="header">
                 <header className="container d-flex">
                     <aside className="logo-name">
-                        <h2 className="title">@juansev.dev</h2>
+                        <h2 className="title"><a href="#home">@juansev.dev</a></h2>
                     </aside>
                     <nav className="navbar">
                         <ul>
