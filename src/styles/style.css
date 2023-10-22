@@ -40,7 +40,7 @@ section.container.home {
 }
 section.container.home .img-card {
   max-width: 600px;
-  margin: 25px;
+  margin: 0 25px 0 0;
 }
 section.container.home .img-card img {
   max-width: 550px;
@@ -53,13 +53,14 @@ section.container.home .home-text-description h2 {
   font-size: 60px !important;
 }
 section.container.home .home-text-description .typewriter {
-  overflow: hidden;
+  overflow: hidden; /* Para criar o efeito de digitação */
   border-right: 0.15em solid orange; /* Simula o cursor de digitação */
-  white-space: normal; /* Permite que o texto quebre em várias linhas */
+  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
   margin: 0 auto; /* Centraliza o texto */
   letter-spacing: 0.15em; /* Espaçamento entre letras */
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-  font-size: 10px;
+  font-size: 12px;
+  max-height: 40px;
 }
 @keyframes typing {
   from {
