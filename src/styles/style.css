@@ -99,6 +99,30 @@ section.container.about img {
   border-radius: 50%;
 }
 
+section.container.skills {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+section.container.skills .skills-list-container {
+  max-width: 600px;
+}
+section.container.skills .skills-list-container .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.container.skills .skills-list-container .skills-list img {
+  width: 120px;
+  margin: 10px;
+  transition: all 300ms ease-in-out;
+}
+section.container.skills .skills-list-container .skills-list img:hover {
+  transform: scale(1.1);
+}
+section.container.skills .home-text-description {
+  max-width: 500px;
+}
+
 body {
   background-color: #121212;
 }
