@@ -35,7 +35,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="col-12 p-3">
-                        <p className="text-center fw-light" style={{ fontSize: 12 }}>{year} Todos os direitos reservados &copy; Francisco Juan <span className="font-monospace">>_</span></p>
+                        <p className="text-center fw-light" style={{ fontSize: 12 }}>{year} Todos os direitos reservados &copy; Francisco Juan <span className="font-monospace">&gt; _</span></p>
                     </div>
                 </div>
             </div>
