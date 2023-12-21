@@ -12,10 +12,16 @@ const obj = {
 export default class Projects extends Component {
   render() {
     return (
-      <section className="container projects" id="projects">
+      <section className="container text-white" id="projects">
         <h3>projects</h3>
-        <main className="projects-container">
-          <ProjectCard project={{...obj}} />
+        <main className="container">
+          <div className="row gx-3">
+            <ProjectCard project={{...obj}} />
+            <ProjectCard project={{...obj}} />
+            <ProjectCard project={{...obj}} />
+            <ProjectCard project={{...obj}} />
+            <ProjectCard project={{...obj}} />
+          </div>
         </main>
       </section>
       )
