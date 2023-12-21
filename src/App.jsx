@@ -2,6 +2,7 @@ import Home from "./screens/Home"
 import About from './screens/About';
 import Projects from "./screens/Projects";
 import Skills from "./screens/Skills";
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Footer />
     </>
   )
 }
